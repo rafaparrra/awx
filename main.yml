@@ -1,0 +1,7 @@
+---
+# Txt playbook
+
+- hosts: all
+  remote_user: "rafa"
+  roles:
+  -  role : touch
